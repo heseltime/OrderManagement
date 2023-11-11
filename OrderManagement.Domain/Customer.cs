@@ -5,6 +5,7 @@ namespace OrderManagement.Domain;
 
 public class Customer
 {
+    public Customer() { }
     public Customer(Guid id, string name, int zipCode, string city, Rating rating)
     {
         Id = id;
